@@ -5,4 +5,5 @@ function mgr_add_scripts(){
   wp_enqueue_script('mgr-main-script', plugins_url() . '/my-github-repos/js/main.js');
 }
 
-add_action('wp_enqueue_script', 'mgr_add_scripts');
+add_action('wp_enqueue_scripts', 'mgr_add_scripts');
+
